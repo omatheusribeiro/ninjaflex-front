@@ -1,0 +1,35 @@
+@import "../../../../../shared/colors/cores-claras-point-sale.scss";
+
+::ng-deep .my-custom-dialog-class {
+    mat-dialog-container {
+        background: $corCinza;
+        color: $corCinza;
+        padding: 0px;
+        overflow:hidden;
+        border-radius: 15px;
+    }
+
+    .div-tittle{
+        padding: 5px;
+        background-color: $corCinza;
+        color: $corBranca;
+        margin-bottom: 1px;
+    }
+
+    .div-tittle > h1{
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .section-contents{
+        background: $corBranca;
+        padding: 24px;
+        font-size: 16px;
+        word-break: break-all;
+    }
+
+    .div-button{
+        display: flex;
+        justify-content: end;
+    }
+  }

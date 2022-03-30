@@ -1,0 +1,33 @@
+@import "../../../../../shared/colors/cores-claras-point-sale.scss";
+
+.div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.label{
+    font-size: 14px;
+    color: $corCinzaLabel;
+    font-weight: bold;
+}
+
+.input{
+    margin-top: 10px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: $corCinza;
+    transition: 0.3s;
+    width: 100%;
+    background: none;
+    color: $corCinza;
+}
+
+.input:focus {
+    border-color: $corLaranja;
+    color: $corLaranja;
+}
